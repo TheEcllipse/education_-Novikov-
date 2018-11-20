@@ -17,7 +17,19 @@
                     <view key="view" contentMode="scaleToFill" id="8EE-HN-dbc">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="iOS Sample" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4tb-ZP-lTk">
+                                <rect key="frame" x="143.5" y="323" width="88.5" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.96862745098039216" green="0.96862745098039216" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="4tb-ZP-lTk" firstAttribute="centerX" secondItem="8EE-HN-dbc" secondAttribute="centerX" id="HtM-ZV-Hxb"/>
+                            <constraint firstItem="4tb-ZP-lTk" firstAttribute="centerY" secondItem="8EE-HN-dbc" secondAttribute="centerY" id="QeO-RS-4l9"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="WDX-xB-eob"/>
                     </view>
                 </viewController>
