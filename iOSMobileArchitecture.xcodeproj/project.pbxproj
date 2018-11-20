@@ -37,7 +37,7 @@
 		96DD56CB219F0CA600BA1102 /* GlobalDefinitions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DD56CA219F0CA600BA1102 /* GlobalDefinitions.swift */; };
 		96DD56CD219F0D1800BA1102 /* RealmCoordinate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DD56CC219F0D1800BA1102 /* RealmCoordinate.swift */; };
 		96DD56CF219F0E9500BA1102 /* CityRealmMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DD56CE219F0E9500BA1102 /* CityRealmMapper.swift */; };
-		96DD56D1219F109C00BA1102 /* CityFromJSONMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DD56D0219F109C00BA1102 /* CityFromJSONMapper.swift */; };
+		96DD56D1219F109C00BA1102 /* CitiesFromJSONMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DD56D0219F109C00BA1102 /* CitiesFromJSONMapper.swift */; };
 		96DD56D3219F11D000BA1102 /* CityService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DD56D2219F11D000BA1102 /* CityService.swift */; };
 		96DD56D6219F122000BA1102 /* DAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DD56D5219F122000BA1102 /* DAO.swift */; };
 		96DD56D8219F122400BA1102 /* RestAPITransport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DD56D7219F122400BA1102 /* RestAPITransport.swift */; };
@@ -60,6 +60,13 @@
 		96DD56FE21A4304900BA1102 /* authorization.json in Resources */ = {isa = PBXBuildFile; fileRef = 96DD56FD21A4304900BA1102 /* authorization.json */; };
 		96DD570121A4314400BA1102 /* AuthorizationErrorAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DD570021A4314400BA1102 /* AuthorizationErrorAlert.swift */; };
 		96DD570721A43E9500BA1102 /* SplashScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96DD570621A43E9500BA1102 /* SplashScreen.storyboard */; };
+		96DD570921A4460F00BA1102 /* CityTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DD570821A4460F00BA1102 /* CityTableCell.swift */; };
+		96DD570B21A4463D00BA1102 /* FavoriteCityTableElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DD570A21A4463D00BA1102 /* FavoriteCityTableElement.swift */; };
+		96DD570D21A448D000BA1102 /* FavoriteCity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DD570C21A448D000BA1102 /* FavoriteCity.swift */; };
+		96DD570F21A449BF00BA1102 /* RealmFavoriteCity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DD570E21A449BF00BA1102 /* RealmFavoriteCity.swift */; };
+		96DD571121A44A2700BA1102 /* FavoriteCityRealmMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DD571021A44A2700BA1102 /* FavoriteCityRealmMapper.swift */; };
+		96DD571321A44AE900BA1102 /* getCities.json in Resources */ = {isa = PBXBuildFile; fileRef = 96DD571221A44AE900BA1102 /* getCities.json */; };
+		96DD571521A44CCA00BA1102 /* GetCitiesRequestBody.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DD571421A44CCA00BA1102 /* GetCitiesRequestBody.swift */; };
 		96F03776219C3D2C00D52BBF /* RealmCity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F03775219C3D2C00D52BBF /* RealmCity.swift */; };
 		ECE0B2222106FD84980678B5 /* Pods_iOSMobileArchitecture.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACA96BDAD5B09FB873090C8F /* Pods_iOSMobileArchitecture.framework */; };
 /* End PBXBuildFile section */
@@ -99,7 +106,7 @@
 		96DD56CA219F0CA600BA1102 /* GlobalDefinitions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalDefinitions.swift; sourceTree = "<group>"; };
 		96DD56CC219F0D1800BA1102 /* RealmCoordinate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmCoordinate.swift; sourceTree = "<group>"; };
 		96DD56CE219F0E9500BA1102 /* CityRealmMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityRealmMapper.swift; sourceTree = "<group>"; };
-		96DD56D0219F109C00BA1102 /* CityFromJSONMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityFromJSONMapper.swift; sourceTree = "<group>"; };
+		96DD56D0219F109C00BA1102 /* CitiesFromJSONMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitiesFromJSONMapper.swift; sourceTree = "<group>"; };
 		96DD56D2219F11D000BA1102 /* CityService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityService.swift; sourceTree = "<group>"; };
 		96DD56D5219F122000BA1102 /* DAO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DAO.swift; sourceTree = "<group>"; };
 		96DD56D7219F122400BA1102 /* RestAPITransport.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestAPITransport.swift; sourceTree = "<group>"; };
@@ -122,6 +129,13 @@
 		96DD56FD21A4304900BA1102 /* authorization.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = authorization.json; sourceTree = "<group>"; };
 		96DD570021A4314400BA1102 /* AuthorizationErrorAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorizationErrorAlert.swift; sourceTree = "<group>"; };
 		96DD570621A43E9500BA1102 /* SplashScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SplashScreen.storyboard; sourceTree = "<group>"; };
+		96DD570821A4460F00BA1102 /* CityTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityTableCell.swift; sourceTree = "<group>"; };
+		96DD570A21A4463D00BA1102 /* FavoriteCityTableElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteCityTableElement.swift; sourceTree = "<group>"; };
+		96DD570C21A448D000BA1102 /* FavoriteCity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteCity.swift; sourceTree = "<group>"; };
+		96DD570E21A449BF00BA1102 /* RealmFavoriteCity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmFavoriteCity.swift; sourceTree = "<group>"; };
+		96DD571021A44A2700BA1102 /* FavoriteCityRealmMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteCityRealmMapper.swift; sourceTree = "<group>"; };
+		96DD571221A44AE900BA1102 /* getCities.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = getCities.json; sourceTree = "<group>"; };
+		96DD571421A44CCA00BA1102 /* GetCitiesRequestBody.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetCitiesRequestBody.swift; sourceTree = "<group>"; };
 		96F03775219C3D2C00D52BBF /* RealmCity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmCity.swift; sourceTree = "<group>"; };
 		ACA96BDAD5B09FB873090C8F /* Pods_iOSMobileArchitecture.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOSMobileArchitecture.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -253,7 +267,8 @@
 				96DD56F621A2E92200BA1102 /* TokensFromJSONMapper.swift */,
 				96DD56F421A2E90900BA1102 /* JWTFromJSONMapper.swift */,
 				96DD56CE219F0E9500BA1102 /* CityRealmMapper.swift */,
-				96DD56D0219F109C00BA1102 /* CityFromJSONMapper.swift */,
+				96DD56D0219F109C00BA1102 /* CitiesFromJSONMapper.swift */,
+				96DD571021A44A2700BA1102 /* FavoriteCityRealmMapper.swift */,
 			);
 			path = Transformation;
 			sourceTree = "<group>";
@@ -312,6 +327,7 @@
 				96DD56F021A2E8D800BA1102 /* JWT.swift */,
 				96422CC52199C15B00E485F2 /* City.swift */,
 				96DD569B219F08E600BA1102 /* Coordinate.swift */,
+				96DD570C21A448D000BA1102 /* FavoriteCity.swift */,
 			);
 			path = Entity;
 			sourceTree = "<group>";
@@ -321,6 +337,7 @@
 			children = (
 				96F03775219C3D2C00D52BBF /* RealmCity.swift */,
 				96DD56CC219F0D1800BA1102 /* RealmCoordinate.swift */,
+				96DD570E21A449BF00BA1102 /* RealmFavoriteCity.swift */,
 			);
 			path = Realm;
 			sourceTree = "<group>";
@@ -330,6 +347,8 @@
 			children = (
 				96422CBE2199AF1F00E485F2 /* Elements */,
 				96422CBF2199B45200E485F2 /* CitiesTableView.swift */,
+				96DD570821A4460F00BA1102 /* CityTableCell.swift */,
+				96DD570A21A4463D00BA1102 /* FavoriteCityTableElement.swift */,
 			);
 			path = TableView;
 			sourceTree = "<group>";
@@ -381,6 +400,7 @@
 				96DD56E2219F12ED00BA1102 /* ReSignInRequest.swift */,
 				96DD56DC219F126800BA1102 /* APIRequestBody.swift */,
 				96DD56DE219F126D00BA1102 /* AuthAPIRequestBody.swift */,
+				96DD571421A44CCA00BA1102 /* GetCitiesRequestBody.swift */,
 			);
 			path = RequestBody;
 			sourceTree = "<group>";
@@ -407,6 +427,7 @@
 			isa = PBXGroup;
 			children = (
 				96DD56FD21A4304900BA1102 /* authorization.json */,
+				96DD571221A44AE900BA1102 /* getCities.json */,
 			);
 			path = json;
 			sourceTree = "<group>";
@@ -486,6 +507,7 @@
 				9609995121998FEE006B6D62 /* CitiesScreen.storyboard in Resources */,
 				96DD56FE21A4304900BA1102 /* authorization.json in Resources */,
 				96DD570721A43E9500BA1102 /* SplashScreen.storyboard in Resources */,
+				96DD571321A44AE900BA1102 /* getCities.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -554,6 +576,7 @@
 				96DD56F121A2E8D800BA1102 /* JWT.swift in Sources */,
 				96DD56DA219F123400BA1102 /* RestAPI.swift in Sources */,
 				96422CC02199B45200E485F2 /* CitiesTableView.swift in Sources */,
+				96DD571121A44A2700BA1102 /* FavoriteCityRealmMapper.swift in Sources */,
 				96DD56CF219F0E9500BA1102 /* CityRealmMapper.swift in Sources */,
 				96DD56E5219F130400BA1102 /* SignInRequest.swift in Sources */,
 				96DD56F521A2E90900BA1102 /* JWTFromJSONMapper.swift in Sources */,
@@ -566,6 +589,8 @@
 				96422CC22199B4CA00E485F2 /* CitiesTableElement.swift in Sources */,
 				96DD56AE219F0A9F00BA1102 /* UINavigationItemExtension.swift in Sources */,
 				9609994F21998E3B006B6D62 /* CitiesViewModel.swift in Sources */,
+				96DD570921A4460F00BA1102 /* CityTableCell.swift in Sources */,
+				96DD570D21A448D000BA1102 /* FavoriteCity.swift in Sources */,
 				96F03776219C3D2C00D52BBF /* RealmCity.swift in Sources */,
 				96DD56A8219F0A7000BA1102 /* UIBarButtonItemExtension.swift in Sources */,
 				96DD56CD219F0D1800BA1102 /* RealmCoordinate.swift in Sources */,
@@ -577,14 +602,16 @@
 				96DD56EB219F140C00BA1102 /* AuthorizationViewController.swift in Sources */,
 				96DD570121A4314400BA1102 /* AuthorizationErrorAlert.swift in Sources */,
 				96DD56DF219F126D00BA1102 /* AuthAPIRequestBody.swift in Sources */,
+				96DD571521A44CCA00BA1102 /* GetCitiesRequestBody.swift in Sources */,
 				96DD56C2219F0AC600BA1102 /* UITableViewRxExtension.swift in Sources */,
 				96DD56C8219F0AC600BA1102 /* UIViewControllerRxExtension.swift in Sources */,
 				96DD56E3219F12ED00BA1102 /* ReSignInRequest.swift in Sources */,
 				96DD569A219EFFB800BA1102 /* GeoLocationService.swift in Sources */,
 				96DD56C6219F0AC600BA1102 /* ObservableExtension.swift in Sources */,
+				96DD570F21A449BF00BA1102 /* RealmFavoriteCity.swift in Sources */,
 				96422CC42199B4F300E485F2 /* CitiesElementMapper.swift in Sources */,
 				96DD56B4219F0AAE00BA1102 /* UITextFieldExtension.swift in Sources */,
-				96DD56D1219F109C00BA1102 /* CityFromJSONMapper.swift in Sources */,
+				96DD56D1219F109C00BA1102 /* CitiesFromJSONMapper.swift in Sources */,
 				96DD56A6219F0A6200BA1102 /* StringExtension.swift in Sources */,
 				9609994D21998E2C006B6D62 /* CitiesViewController.swift in Sources */,
 				96DD56AA219F0A7500BA1102 /* UIButtonExtension.swift in Sources */,
@@ -593,6 +620,7 @@
 				96DD56B2219F0AAA00BA1102 /* UITableViewExtension.swift in Sources */,
 				96DD56E9219F13E400BA1102 /* SplashViewController.swift in Sources */,
 				96422CC62199C15B00E485F2 /* City.swift in Sources */,
+				96DD570B21A4463D00BA1102 /* FavoriteCityTableElement.swift in Sources */,
 				96DD56D3219F11D000BA1102 /* CityService.swift in Sources */,
 				96DD56F721A2E92200BA1102 /* TokensFromJSONMapper.swift in Sources */,
 				96DD56C7219F0AC600BA1102 /* RxActivityIndicator.swift in Sources */,

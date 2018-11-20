@@ -9,5 +9,4 @@
 struct City {
     let id: String
     let name: String
-    let coordinate: Coordinate
 }

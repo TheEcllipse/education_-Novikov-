@@ -6,6 +6,18 @@
 //  Copyright © 2018 Andrey Chernyshev. All rights reserved.
 //
 
-struct CitiesTableElement {
-    
+enum CityTableElement {
+    case city(CityElement)
+    case favorite(FavoriteCityElement)
+}
+
+struct CityElement {
+    let id: String
+    let name: String
+}
+
+struct FavoriteCityElement {
+    let id: String
+    let name: String
+    let dateAdded: String
 }

@@ -15,20 +15,11 @@ class CityRealmMapper {
         realmCity.id = entity.id
         realmCity.name = entity.name
         
-        let realmCoordinate = RealmCoordinate()
-        realmCoordinate.latitude = entity.coordinate.latitude
-        realmCoordinate.longitude = entity.coordinate.longitude
-        realmCity.coordinate = realmCoordinate
-        
         return realmCity
     }
     
     static func map(realm: RealmCity) -> City {
-        let coordinate = Coordinate(latitude: realm.coordinate.latitude,
-                                    longitude: realm.coordinate.longitude)
-        
         return City(id: realm.id,
-                    name: realm.name,
-                    coordinate: coordinate)
+                    name: realm.name)
     }
 }

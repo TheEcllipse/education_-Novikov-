@@ -51,18 +51,6 @@ class SessionService: RestAPI {
             return Disposables.create()
         }
     }
-    
-//    if let file = Bundle.main.path(forResource: "document", ofType: "json") {
-//        do {
-//            let data = try Data(contentsOf: URL(fileURLWithPath: file), options: [])
-//            let json = try JSONSerialization.jsonObject(with: data, options: [])
-//            observer.onNext(json)
-//            observer.onCompleted()
-//        } catch {
-//            print(error)
-//        }
-//
-//    }
 
     static func signIn(login: String, password: String) -> Observable<Void> {
         let request = SignInRequest(login: login, password: password)
@@ -70,24 +58,25 @@ class SessionService: RestAPI {
         return requestSingleResponse(with: request) { response -> JWT? in
             return JWTFromJSONMapper.map(json: response)
         }
-//        .catchError { _ -> Observable<JWT?> in
-//            return Observable<[String: Any]>.create { observer in
-//                let path = Bundle.main.path(forResource: "authorization", ofType: "json")!
-//                let url = URL(fileURLWithPath: path)
-//                let data = try? Data(contentsOf: url, options: [])
-//                let json = try? JSONSerialization.jsonObject(with: data!, options: [])
-//
-//                let dict = json as? [String: Any] ?? [:]
-//
-//                observer.onNext(dict)
-//                observer.onCompleted()
-//
-//                return Disposables.create()
-//            }
-//            .map { dict -> JWT? in
-//                return JWTFromJSONMapper.map(json: dict)
-//            }
-//        }
+        .catchError { _ -> Observable<JWT?> in
+            // Имитация запроса
+            return Observable<[String: Any]>.create { observer in
+                let path = Bundle.main.path(forResource: "authorization", ofType: "json")!
+                let url = URL(fileURLWithPath: path)
+                let data = try? Data(contentsOf: url, options: [])
+                let json = try? JSONSerialization.jsonObject(with: data!, options: [])
+
+                let dict = json as? [String: Any] ?? [:]
+
+                observer.onNext(dict)
+                observer.onCompleted()
+
+                return Disposables.create()
+            }
+            .map { dict -> JWT? in
+                return JWTFromJSONMapper.map(json: dict)
+            }
+        }
         .flatMap { value -> Observable<Void> in
             if let jwt = value {
                 return Observable.create { observer in
