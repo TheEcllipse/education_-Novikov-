@@ -7,11 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		96B0E73521A859F4001AD6FF /* Introduction in Resources */ = {isa = PBXBuildFile; fileRef = 96B0E73421A859F4001AD6FF /* Introduction */; };
 		ECE0B2222106FD84980678B5 /* Pods_iOSMobileArchitecture.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACA96BDAD5B09FB873090C8F /* Pods_iOSMobileArchitecture.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		9609992D21998CAB006B6D62 /* iOSMobileArchitecture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSMobileArchitecture.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		96B0E73421A859F4001AD6FF /* Introduction */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Introduction; sourceTree = "<group>"; };
 		ACA96BDAD5B09FB873090C8F /* Pods_iOSMobileArchitecture.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOSMobileArchitecture.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -38,6 +40,7 @@
 		9609992421998CAB006B6D62 = {
 			isa = PBXGroup;
 			children = (
+				96B0E73421A859F4001AD6FF /* Introduction */,
 				9609992F21998CAB006B6D62 /* iOSMobileArchitecture */,
 				9609992E21998CAB006B6D62 /* Products */,
 				0F442602D457EE421B5ECE81 /* Frameworks */,
@@ -119,6 +122,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96B0E73521A859F4001AD6FF /* Introduction in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
