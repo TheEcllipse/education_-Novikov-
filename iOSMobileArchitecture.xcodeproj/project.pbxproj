@@ -41,7 +41,6 @@
 			isa = PBXGroup;
 			children = (
 				96B0E73421A859F4001AD6FF /* Introduction */,
-				9609992F21998CAB006B6D62 /* iOSMobileArchitecture */,
 				9609992E21998CAB006B6D62 /* Products */,
 				0F442602D457EE421B5ECE81 /* Frameworks */,
 			);
@@ -53,13 +52,6 @@
 				9609992D21998CAB006B6D62 /* iOSMobileArchitecture.app */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		9609992F21998CAB006B6D62 /* iOSMobileArchitecture */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = iOSMobileArchitecture;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
