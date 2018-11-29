@@ -1,0 +1,1 @@
+Создать UIViewController (TaskOneViewController). Через Interface Builder добавить 2 текстовых поля, кнопку и лейбл. По тапу на кнопку отображать в лейбле содержимое текстового поля.

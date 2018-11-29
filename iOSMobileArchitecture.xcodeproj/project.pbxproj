@@ -10,8 +10,12 @@
 		9609993121998CAB006B6D62 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9609993021998CAB006B6D62 /* AppDelegate.swift */; };
 		9609993821998CAD006B6D62 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9609993721998CAD006B6D62 /* Assets.xcassets */; };
 		9609995321998FFE006B6D62 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9609995221998FFE006B6D62 /* LaunchScreen.storyboard */; };
-		96DD56E9219F13E400BA1102 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DD56E8219F13E400BA1102 /* SplashViewController.swift */; };
-		96DD570721A43E9500BA1102 /* SplashScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96DD570621A43E9500BA1102 /* SplashScreen.storyboard */; };
+		96B0E7A121AFD413001AD6FF /* ReadMe in Resources */ = {isa = PBXBuildFile; fileRef = 96B0E7A021AFD413001AD6FF /* ReadMe */; };
+		96B0E7A421AFD695001AD6FF /* TaskOne in Resources */ = {isa = PBXBuildFile; fileRef = 96B0E7A321AFD695001AD6FF /* TaskOne */; };
+		96B0E7A721AFE4AF001AD6FF /* TaskTwo in Resources */ = {isa = PBXBuildFile; fileRef = 96B0E7A621AFE4AF001AD6FF /* TaskTwo */; };
+		96B0E7AA21AFFB34001AD6FF /* TaskThree in Resources */ = {isa = PBXBuildFile; fileRef = 96B0E7A921AFFB34001AD6FF /* TaskThree */; };
+		96B0E7AD21B0086D001AD6FF /* TaskFour in Resources */ = {isa = PBXBuildFile; fileRef = 96B0E7AC21B0086D001AD6FF /* TaskFour */; };
+		96B0E7B021B00CAF001AD6FF /* TaskFive in Resources */ = {isa = PBXBuildFile; fileRef = 96B0E7AF21B00CAF001AD6FF /* TaskFive */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,8 +24,12 @@
 		9609993721998CAD006B6D62 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9609993C21998CAD006B6D62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9609995221998FFE006B6D62 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
-		96DD56E8219F13E400BA1102 /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
-		96DD570621A43E9500BA1102 /* SplashScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SplashScreen.storyboard; sourceTree = "<group>"; };
+		96B0E7A021AFD413001AD6FF /* ReadMe */ = {isa = PBXFileReference; lastKnownFileType = text; path = ReadMe; sourceTree = "<group>"; };
+		96B0E7A321AFD695001AD6FF /* TaskOne */ = {isa = PBXFileReference; lastKnownFileType = text; path = TaskOne; sourceTree = "<group>"; };
+		96B0E7A621AFE4AF001AD6FF /* TaskTwo */ = {isa = PBXFileReference; lastKnownFileType = text; path = TaskTwo; sourceTree = "<group>"; };
+		96B0E7A921AFFB34001AD6FF /* TaskThree */ = {isa = PBXFileReference; lastKnownFileType = text; path = TaskThree; sourceTree = "<group>"; };
+		96B0E7AC21B0086D001AD6FF /* TaskFour */ = {isa = PBXFileReference; lastKnownFileType = text; path = TaskFour; sourceTree = "<group>"; };
+		96B0E7AF21B00CAF001AD6FF /* TaskFive */ = {isa = PBXFileReference; lastKnownFileType = text; path = TaskFive; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +46,7 @@
 		9609992421998CAB006B6D62 = {
 			isa = PBXGroup;
 			children = (
+				96B0E7A021AFD413001AD6FF /* ReadMe */,
 				9609992F21998CAB006B6D62 /* iOSMobileArchitecture */,
 				9609992E21998CAB006B6D62 /* Products */,
 			);
@@ -83,7 +92,6 @@
 			isa = PBXGroup;
 			children = (
 				9609995221998FFE006B6D62 /* LaunchScreen.storyboard */,
-				96DD570621A43E9500BA1102 /* SplashScreen.storyboard */,
 			);
 			path = Storyboards;
 			sourceTree = "<group>";
@@ -91,17 +99,53 @@
 		9609994821998DDF006B6D62 /* Presentation */ = {
 			isa = PBXGroup;
 			children = (
-				96DD56E6219F13BB00BA1102 /* SplashScreen */,
+				96B0E7AE21B00C9E001AD6FF /* TaskFiveScreen */,
+				96B0E7AB21B00805001AD6FF /* TaskFourScreen */,
+				96B0E7A821AFE93D001AD6FF /* TaskThreeScreen */,
+				96B0E7A521AFE49E001AD6FF /* TaskTwoScreen */,
+				96B0E7A221AFD666001AD6FF /* TaskOneScreen */,
 			);
 			path = Presentation;
 			sourceTree = "<group>";
 		};
-		96DD56E6219F13BB00BA1102 /* SplashScreen */ = {
+		96B0E7A221AFD666001AD6FF /* TaskOneScreen */ = {
 			isa = PBXGroup;
 			children = (
-				96DD56E8219F13E400BA1102 /* SplashViewController.swift */,
+				96B0E7A321AFD695001AD6FF /* TaskOne */,
 			);
-			path = SplashScreen;
+			path = TaskOneScreen;
+			sourceTree = "<group>";
+		};
+		96B0E7A521AFE49E001AD6FF /* TaskTwoScreen */ = {
+			isa = PBXGroup;
+			children = (
+				96B0E7A621AFE4AF001AD6FF /* TaskTwo */,
+			);
+			path = TaskTwoScreen;
+			sourceTree = "<group>";
+		};
+		96B0E7A821AFE93D001AD6FF /* TaskThreeScreen */ = {
+			isa = PBXGroup;
+			children = (
+				96B0E7A921AFFB34001AD6FF /* TaskThree */,
+			);
+			path = TaskThreeScreen;
+			sourceTree = "<group>";
+		};
+		96B0E7AB21B00805001AD6FF /* TaskFourScreen */ = {
+			isa = PBXGroup;
+			children = (
+				96B0E7AC21B0086D001AD6FF /* TaskFour */,
+			);
+			path = TaskFourScreen;
+			sourceTree = "<group>";
+		};
+		96B0E7AE21B00C9E001AD6FF /* TaskFiveScreen */ = {
+			isa = PBXGroup;
+			children = (
+				96B0E7AF21B00CAF001AD6FF /* TaskFive */,
+			);
+			path = TaskFiveScreen;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -162,9 +206,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96B0E7AA21AFFB34001AD6FF /* TaskThree in Resources */,
+				96B0E7A421AFD695001AD6FF /* TaskOne in Resources */,
 				9609995321998FFE006B6D62 /* LaunchScreen.storyboard in Resources */,
+				96B0E7AD21B0086D001AD6FF /* TaskFour in Resources */,
+				96B0E7B021B00CAF001AD6FF /* TaskFive in Resources */,
 				9609993821998CAD006B6D62 /* Assets.xcassets in Resources */,
-				96DD570721A43E9500BA1102 /* SplashScreen.storyboard in Resources */,
+				96B0E7A121AFD413001AD6FF /* ReadMe in Resources */,
+				96B0E7A721AFE4AF001AD6FF /* TaskTwo in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,7 +225,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				9609993121998CAB006B6D62 /* AppDelegate.swift in Sources */,
-				96DD56E9219F13E400BA1102 /* SplashViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

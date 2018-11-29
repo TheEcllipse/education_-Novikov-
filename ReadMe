@@ -1,0 +1,8 @@
+Текущий этап предназначен для изучения основ языка и iOS разработки. Каждое задание не выходит за пределы своей группы Classes/Presentation/TaskXXXScreen, за исключением файлов .storyboard, которые расположены в Resources/Storyboards группе. Все задания описаны в файле TaskXXX внутри соответствующей группы.
+
+Основной источник для ознакомления с базисом языка https://swiftbook.ru/content/languageguide/.
+Основной источник для ознакомления с Auto Layout https://developer.apple.com/library/archive/documentation/UserExperience/Conceptual/AutolayoutPG/index.html#.
+
+В первую очередь необходимо ознакомиться с теоретической частью, затем приступать к заданиям.
+
+Для открытия экрана с заданием необходимо указать соответствующий экран в General -> Main Interface. 

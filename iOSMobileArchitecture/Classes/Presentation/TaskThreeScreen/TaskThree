@@ -1,0 +1,7 @@
+Создать TaskThreePartOneViewController, TaskThreePartTwoViewController и TaskThreePartThreeViewController. Все 3 vc должны лежать в одном стеке UINavigationController'а.
+Создать класс и структуру, описывающих предметные модели. Каждой модели добавить по 5 свойств - 3 строки, число и дату (все свойства опциональны). Все свойства у моделей имеют дефолтные значения (nil так же считать дефолтным значением).
+На TaskThreePartOneViewController добавить (через IB) лейбл и 2 кнопки. Требуется учесть, что лейбл может быть растянут на несколько строк. По тапу на первую кнопку, передать экземпляр класса на TaskThreePartTwoViewController экран, по тапу на вторую кнопку - экземпляр структуры на TaskThreePartThreeViewController экран.
+На TaskThreePartTwoViewController и TaskThreePartThreeViewController добавить (через IB) UIScrollView, на котором разместить текстовые поля для отображение и редактирования свойств соответствующих объектов. А так же кнопки, по тапу на которые изменения будут применяться.
+После того, как новые значение были приняты (тап на кнопку) возвращаться на главный экран (TaskThreePartOneViewController), где в лейбле должны отобразиться названия полей, которые были изменены.
+Для связи TaskThreePartOneViewController и TaskThreePartTwoViewController использовать делегаты.
+Для связи TaskThreePartOneViewController и TaskThreePartThreeViewController использовать замыкания.
