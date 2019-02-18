@@ -17,7 +17,6 @@
 		96B0E7AD21B0086D001AD6FF /* TaskFour in Resources */ = {isa = PBXBuildFile; fileRef = 96B0E7AC21B0086D001AD6FF /* TaskFour */; };
 		96B0E7B021B00CAF001AD6FF /* TaskFive in Resources */ = {isa = PBXBuildFile; fileRef = 96B0E7AF21B00CAF001AD6FF /* TaskFive */; };
 		CE41A5FF22047E8700242828 /* TaskOneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE41A5FE22047E8700242828 /* TaskOneViewController.swift */; };
-		CE41A60122048DD300242828 /* TaskOneViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE41A60022048DD300242828 /* TaskOneViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,7 +32,6 @@
 		96B0E7AC21B0086D001AD6FF /* TaskFour */ = {isa = PBXFileReference; lastKnownFileType = text; path = TaskFour; sourceTree = "<group>"; };
 		96B0E7AF21B00CAF001AD6FF /* TaskFive */ = {isa = PBXFileReference; lastKnownFileType = text; path = TaskFive; sourceTree = "<group>"; };
 		CE41A5FE22047E8700242828 /* TaskOneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskOneViewController.swift; sourceTree = "<group>"; };
-		CE41A60022048DD300242828 /* TaskOneViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TaskOneViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,7 +85,6 @@
 				9609994421998D97006B6D62 /* Storyboards */,
 				9609993721998CAD006B6D62 /* Assets.xcassets */,
 				CE41A5FE22047E8700242828 /* TaskOneViewController.swift */,
-				CE41A60022048DD300242828 /* TaskOneViewController.xib */,
 				9609993021998CAB006B6D62 /* AppDelegate.swift */,
 				9609993C21998CAD006B6D62 /* Info.plist */,
 			);
@@ -220,7 +217,6 @@
 				9609993821998CAD006B6D62 /* Assets.xcassets in Resources */,
 				96B0E7A121AFD413001AD6FF /* ReadMe in Resources */,
 				96B0E7A721AFE4AF001AD6FF /* TaskTwo in Resources */,
-				CE41A60122048DD300242828 /* TaskOneViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
