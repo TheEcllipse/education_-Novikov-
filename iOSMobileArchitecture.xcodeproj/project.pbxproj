@@ -16,7 +16,6 @@
 		96B0E7AA21AFFB34001AD6FF /* TaskThree in Resources */ = {isa = PBXBuildFile; fileRef = 96B0E7A921AFFB34001AD6FF /* TaskThree */; };
 		96B0E7AD21B0086D001AD6FF /* TaskFour in Resources */ = {isa = PBXBuildFile; fileRef = 96B0E7AC21B0086D001AD6FF /* TaskFour */; };
 		96B0E7B021B00CAF001AD6FF /* TaskFive in Resources */ = {isa = PBXBuildFile; fileRef = 96B0E7AF21B00CAF001AD6FF /* TaskFive */; };
-		CE41A5FF22047E8700242828 /* TaskOneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE41A5FE22047E8700242828 /* TaskOneViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,7 +30,6 @@
 		96B0E7A921AFFB34001AD6FF /* TaskThree */ = {isa = PBXFileReference; lastKnownFileType = text; path = TaskThree; sourceTree = "<group>"; };
 		96B0E7AC21B0086D001AD6FF /* TaskFour */ = {isa = PBXFileReference; lastKnownFileType = text; path = TaskFour; sourceTree = "<group>"; };
 		96B0E7AF21B00CAF001AD6FF /* TaskFive */ = {isa = PBXFileReference; lastKnownFileType = text; path = TaskFive; sourceTree = "<group>"; };
-		CE41A5FE22047E8700242828 /* TaskOneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskOneViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,7 +82,6 @@
 			children = (
 				9609994421998D97006B6D62 /* Storyboards */,
 				9609993721998CAD006B6D62 /* Assets.xcassets */,
-				CE41A5FE22047E8700242828 /* TaskOneViewController.swift */,
 				9609993021998CAB006B6D62 /* AppDelegate.swift */,
 				9609993C21998CAD006B6D62 /* Info.plist */,
 			);
@@ -227,7 +224,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE41A5FF22047E8700242828 /* TaskOneViewController.swift in Sources */,
 				9609993121998CAB006B6D62 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
