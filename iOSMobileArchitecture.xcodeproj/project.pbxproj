@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		841070C9221B1D0F000905AB /* TaskOne.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 841070C8221B1D0F000905AB /* TaskOne.storyboard */; };
+		8480D393221AF34B00D9E93C /* TaskOneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8480D392221AF34B00D9E93C /* TaskOneViewController.swift */; };
 		9609993121998CAB006B6D62 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9609993021998CAB006B6D62 /* AppDelegate.swift */; };
 		9609993821998CAD006B6D62 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9609993721998CAD006B6D62 /* Assets.xcassets */; };
 		9609995321998FFE006B6D62 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9609995221998FFE006B6D62 /* LaunchScreen.storyboard */; };
@@ -19,6 +21,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		841070C8221B1D0F000905AB /* TaskOne.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TaskOne.storyboard; sourceTree = "<group>"; };
+		8480D392221AF34B00D9E93C /* TaskOneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskOneViewController.swift; sourceTree = "<group>"; };
 		9609992D21998CAB006B6D62 /* iOSMobileArchitecture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSMobileArchitecture.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9609993021998CAB006B6D62 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9609993721998CAD006B6D62 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -112,6 +116,8 @@
 			isa = PBXGroup;
 			children = (
 				96B0E7A321AFD695001AD6FF /* TaskOne */,
+				8480D392221AF34B00D9E93C /* TaskOneViewController.swift */,
+				841070C8221B1D0F000905AB /* TaskOne.storyboard */,
 			);
 			path = TaskOneScreen;
 			sourceTree = "<group>";
@@ -206,6 +212,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				841070C9221B1D0F000905AB /* TaskOne.storyboard in Resources */,
 				96B0E7AA21AFFB34001AD6FF /* TaskThree in Resources */,
 				96B0E7A421AFD695001AD6FF /* TaskOne in Resources */,
 				9609995321998FFE006B6D62 /* LaunchScreen.storyboard in Resources */,
@@ -224,6 +231,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8480D393221AF34B00D9E93C /* TaskOneViewController.swift in Sources */,
 				9609993121998CAB006B6D62 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -352,7 +360,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = UDD4QZUY96;
 				INFOPLIST_FILE = "$(SRCROOT)/iOSMobileArchitecture/Resources/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -371,7 +379,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = UDD4QZUY96;
 				INFOPLIST_FILE = "$(SRCROOT)/iOSMobileArchitecture/Resources/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
