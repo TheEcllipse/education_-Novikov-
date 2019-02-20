@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="0Us-BT-66K">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Task Two View Controller-->
+        <scene sceneID="7Jw-7S-WwS">
+            <objects>
+                <viewController id="0Us-BT-66K" customClass="TaskTwoViewController" customModule="iOSMobileArchitecture" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Uzf-LN-JAj">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="c4Y-nD-k2A">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="clip" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zot-ia-J7h">
+                                        <rect key="frame" x="8" y="110" width="359" height="180"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="180" id="TBQ-hB-8sz"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YKX-sd-Ofw">
+                                        <rect key="frame" x="131.5" y="696" width="112" height="30"/>
+                                        <state key="normal" title="Нажми на меня"/>
+                                        <connections>
+                                            <action selector="actionButton:" destination="0Us-BT-66K" eventType="touchUpInside" id="Bwm-5b-om2"/>
+                                        </connections>
+                                    </button>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Введите текст" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Eag-W6-vb3">
+                                        <rect key="frame" x="8" y="318" width="359" height="30"/>
+                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="Zot-ia-J7h" firstAttribute="leading" secondItem="Eag-W6-vb3" secondAttribute="leading" id="58p-FE-sjm"/>
+                                    <constraint firstItem="Eag-W6-vb3" firstAttribute="centerX" secondItem="YKX-sd-Ofw" secondAttribute="centerX" id="5wE-gz-5WS"/>
+                                    <constraint firstItem="Eag-W6-vb3" firstAttribute="top" secondItem="c4Y-nD-k2A" secondAttribute="top" constant="318" id="5yM-Jb-FOh"/>
+                                    <constraint firstItem="Zot-ia-J7h" firstAttribute="leading" secondItem="c4Y-nD-k2A" secondAttribute="leadingMargin" id="7a0-jZ-h0L"/>
+                                    <constraint firstItem="Zot-ia-J7h" firstAttribute="top" secondItem="c4Y-nD-k2A" secondAttribute="top" constant="110" id="F2j-q0-sTV"/>
+                                    <constraint firstItem="Zot-ia-J7h" firstAttribute="trailing" secondItem="Eag-W6-vb3" secondAttribute="trailing" id="FqH-WA-dJl"/>
+                                    <constraint firstItem="Zot-ia-J7h" firstAttribute="trailing" secondItem="c4Y-nD-k2A" secondAttribute="trailingMargin" id="L43-0P-Akr"/>
+                                    <constraint firstItem="YKX-sd-Ofw" firstAttribute="centerX" secondItem="c4Y-nD-k2A" secondAttribute="centerX" id="QHl-eg-V3q"/>
+                                    <constraint firstItem="YKX-sd-Ofw" firstAttribute="top" secondItem="c4Y-nD-k2A" secondAttribute="top" constant="696" id="YUe-Dd-Jl6"/>
+                                    <constraint firstAttribute="bottom" secondItem="YKX-sd-Ofw" secondAttribute="bottom" constant="608" id="e8G-Pb-xDz"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="0OC-aO-ZoO" firstAttribute="trailing" secondItem="c4Y-nD-k2A" secondAttribute="trailing" id="4dt-Oo-2tf"/>
+                            <constraint firstItem="0OC-aO-ZoO" firstAttribute="bottom" secondItem="c4Y-nD-k2A" secondAttribute="bottom" id="kKt-yT-MVn"/>
+                            <constraint firstItem="0OC-aO-ZoO" firstAttribute="top" secondItem="c4Y-nD-k2A" secondAttribute="top" constant="20" id="sAb-jA-pNP"/>
+                            <constraint firstItem="c4Y-nD-k2A" firstAttribute="leading" secondItem="0OC-aO-ZoO" secondAttribute="leading" id="zjE-wm-LRN"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="0OC-aO-ZoO"/>
+                    </view>
+                    <connections>
+                        <outlet property="resultLabel" destination="Zot-ia-J7h" id="vmv-91-M6z"/>
+                        <outlet property="textField" destination="Eag-W6-vb3" id="7W1-v0-nHH"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ryo-SI-lti" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-244" y="10.794602698650676"/>
+        </scene>
+    </scenes>
+</document>
