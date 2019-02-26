@@ -47,8 +47,8 @@ class Chair: Furniture {
 }
 
 class TaskTwoViewController: UIViewController {
-    @IBOutlet weak var resultLabel: UILabel!
-    @IBOutlet weak var textField: UITextField!
+    @IBOutlet private weak var resultLabel: UILabel!
+    @IBOutlet private weak var textField: UITextField!
     @IBAction func actionButton(_ sender: Any) {
         let tableFinal = Table(material: "деревянный", year: 2018, company: "ООО Строим Столы", customer: "ООО Нужны Столы")
         let chairFinal = Chair(material: "кожаный", year: 2015, company: "ООО Строим Стулья", customer: "ООО Нужны Стулья")
